@@ -1,0 +1,17 @@
+$footer-color: #343434;
+$lite-gray-color: lightgray;
+
+$page-max-width: auto;
+$page-padding: 2em;
+
+$media-menu-width: 100px;
+
+$main-content-width: auto;
+$left-sidebar-width: 20%;
+$right-sidebar-width: 20%;
+
+//@mixin left-top-zero(#val: 25px){...}
+@mixin left-top-zero{
+  left: 0;
+  top: 0;
+}

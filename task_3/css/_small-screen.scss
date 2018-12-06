@@ -1,0 +1,32 @@
+@import 'variables';
+
+@media screen and (min-width: 800px) {
+    label[for="nav-trigger"] {
+        display: none;
+    }
+
+    .nav-trigger:checked ~ .site-wrap {
+        left: 0px  !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+.main-sub-nav, 
+.main-area__left-sidebar, 
+.main-area__right-sidebar,
+.header__left,
+.header__right,
+.main-nav {
+    display: none !important;
+}
+
+.header {
+  height: auto;
+  border-bottom: #949494 1px solid;
+}
+
+body {
+    display: block;
+}
+
+}   

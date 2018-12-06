@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+    <script src="saves.js" defer></script>       
+    <script src="canvas.js" defer></script>   
+    <script src="main.js" defer></script>  
+  </head>
+  <body>
+  <h1 class="yellow">Tic-Tac-Toe</h1>  
+  <div class="render-type">
+    <p1>Select render type &nbsp;</p1>
+    <select name="renders" onchange="renderChanged(this)">
+      <option value="0" selected>Text</option>
+      <option value="1">Canvas</option>
+    </select>
+  </div>
+
+  <h2 id="current-player">Current player</h2>
+  <table id="game-table" class="container">
+    <tbody>
+      <tr>
+        <td tabIndex="1"></td>
+        <td tabIndex="2"></td>
+        <td tabIndex="3"></td>
+      </tr>
+      <tr>
+        <td tabIndex="4"></td>
+        <td tabIndex="5"></td>
+        <td tabIndex="6"></td>
+      </tr>
+      <tr>
+        <td tabIndex="7"></td>
+        <td tabIndex="8"></td>
+        <td tabIndex="9"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <canvas id="canvas" class="canvas-board" height="300" width="300"></canvas>
+
+  <div class="button-holder">
+    <button tabindex="-1" class="button-rematch" onclick="rematch()">New game</button>
+  </div>
+  
+  <h3>Created by Nikolai Artemev</h3>
+  </body>
+</html>

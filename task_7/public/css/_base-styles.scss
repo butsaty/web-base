@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'fonts';
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0px;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h2 {
+  font-size: 11pt;
+}

@@ -1,0 +1,128 @@
+<!DOCUTYPE html>
+<html>
+  <head horizontal-alighment="center">
+    <script src="wd.js" defer></script>  
+    <script src="app.js" defer></script>     
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.5">
+    
+    <title>Guide to the City</title> 
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--<link rel="stylesheet" type="text/css" href="small-screen.css">-->
+  </head>
+  <body>
+    <ul class="media-navigation">
+      <li class="nav-item"><a href="#">Shop</a></li>
+      <li class="nav-item"><a href="#">Go</a><li>
+      <li class="nav-item"><a href="#">Be</a><li>
+      <li class="nav-item"><a href="#">Do</a><li>
+      <li class="nav-item"><a href="#">See</a><li>
+      <li class="nav-item"><a href="#">Make</a><li>
+      <li class="nav-item"><a href="#">Get</a><li>
+    </ul>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+
+    <div class="site-wrap">
+
+      <header class="header">
+        <div class="header__left">
+          <a class="uppercase-link header--ref" href="/ref/">Sing up for our weekle emails &raquo</a>
+          <p class="italic-text .header--p">goop Fragrance: Lanching Nov. 15</p>
+          <a class="italic-text header--ref" href="/ref/">Sing up now for early access &raquo</a>
+        </div>
+          
+        <h1 class="header__center">Sity Guide</h1>
+
+        <div class="header__right">
+          <div>
+            <a class="uppercase-link right-border header--ref" id="sign-in" href="/sign-in">Sign in</a>
+            <a class="uppercase-link header--ref" href="/ref/">Create account</a>
+          </div>
+          <input class="right--singup" type="text" id="login_input" size="40" role="searchbox">
+          <div class="right--inline">
+            <p class="italic-text .header--p">FREE SHIPING on US order over $50</p>
+            &nbsp
+            <a class="italic-text header--ref" href="/ref/">Details</a>
+          </div>
+        </div>
+      </header>
+          
+        <nav class="main-nav" role="navigation">
+          <ul class="main-nav--ul">
+            <li><a class="main-nav--link" href="/ref/">Shop</a></li>
+            <li><a class="main-nav--link" href="/ref/">Go</a><li>
+            <li><a class="main-nav--link" href="/ref/">Be</a><li>
+            <li><a class="main-nav--link" href="/ref/">Do</a><li>
+            <li><a class="main-nav--link" href="/ref/">See</a><li>
+            <li><a class="main-nav--link" href="/ref/">Make</a><li>
+            <li><a class="main-nav--link" href="/ref/">Get</a><li>
+          </ul>
+        </nav>
+
+      <nav class="main-sub-nav">
+          <a class="main-sub-nav--link" href="/ref/">More</a>
+          <a class="main-sub-nav--link" href="/ref/">Sity Guides</a>
+          <a class="main-sub-nav--link" href="/ref/">Recipes</a>
+          <a class="main-sub-nav--link" href="/ref/">Skincare by goop</a>
+          <a class="main-sub-nav--link" href="/ref/">goop Label</a>
+      </nav>
+
+      <div class="main-area">
+        <section class="main-area__left-sidebar">   
+          <div class="goHome">  
+            <a id="home" href="/">Home</a>
+            /
+            <a href="/ref/">Go</a>
+          </div>
+          <br>
+          <h2>City Guides</h2>
+          <nav>
+            <ul>
+              <li><a href="/ref/">Los Angeles</a></li>
+              <li><a href="/ref/">New York</a></li>
+              <li><a href="/ref/">London</a></li>
+              <li><a href="/ref/">Santa Barbara</a></li>
+              <li><a href="/ref/">Seattle</a></li>
+            </ul>
+          </nav>
+            
+          <h2>Best Of</h2>
+          <nav>
+            <ul>
+              <li><a class="left-menu--link" href="/ref/">Cadillac road to table</a></li>
+              <li><a class="left-menu--link" href="/ref/">Chef Wolen's culinary guid to Chicago</a></li>
+              <li><a class="left-menu--link" href="/ref/">Five days in iceland with GP</a></li>
+              <li><a class="blueLink" href="/ref/">View all</a></li>
+            </ul>
+          </nav>
+
+          <h2>More Travel</h2>
+          <nav>
+            <ul>
+              <li><a class="left-menu--link" href="/ref/">Hometown Hero: Pamela Love</a></li>
+              <li><a class="left-menu--link" href="/ref/">Where the goop Gang Spends the Workweek</a></li>
+              <li><a class="left-menu--link" href="/ref/">Cheif Ford's Culinary Guide to Miami</a></li>
+              <li><a class="blueLink" href="/ref/">View all</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <main wd-root="app" class="main-area__main-content">
+          <!-- routing content here -->
+        </main>
+
+        <aside class="main-area__right-sidebar">
+          <h2>Shop</h2>
+        </aside>
+      </div>
+      
+      <footer class="footer">
+        <p>&copyGoop 2016 all rights reserved<p/>
+      </footer>
+
+    </div>
+  </body>
+</html>

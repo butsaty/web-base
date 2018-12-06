@@ -1,0 +1,23 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "task.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node task.js",
+    "test": "mocha --timeout 3000"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "author": "Nikolai Artemev",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
